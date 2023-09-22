@@ -21,7 +21,7 @@ public class EmployeeRepository {
 
     public EmployeeRepository() {
         em = Persistence
-                .createEntityManagerFactory("lab_week_2")
+                .createEntityManagerFactory("lab02")
                 .createEntityManager();
         trans = em.getTransaction();
     }
